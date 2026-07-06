@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#0C4A8C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Xpert 4You &middot; Compteur de points</title>
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800;1,700&family=Archivo+Black&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#1467B8; --blue-dark:#0C4A8C; --blue-deep:#083461;
+  --ink:#122641; --muted:#5C7089;
+  --bg:#EEF3F9; --card:#FFFFFF; --line:#D9E4F0;
+  --ok:#17A366; --bad:#E03E3E; --gold:#F2A81D;
+  --radius:16px;
+  --shadow:0 2px 10px rgba(12,74,140,.10);
+  --skew:-7deg;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{font-size:16px}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Archivo","Segoe UI",system-ui,-apple-system,sans-serif;
+  -webkit-font-smoothing:antialiased; min-height:100dvh;
+}
+#app{max-width:520px;margin:0 auto;min-height:100dvh}
+.screen{padding:0 14px calc(28px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:12px}
+button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:none;padding:0}
+button:disabled{opacity:.38;cursor:default}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:6px}
+
+/* ---------- Barre haute ---------- */
+.topbar{
+  position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:8px;
+  margin:0 -14px 4px;padding:10px 12px calc(10px);
+  padding-top:calc(10px + env(safe-area-inset-top));
+  background:linear-gradient(115deg,var(--blue-deep) 0%,var(--blue) 78%);
+  color:#fff;box-shadow:var(--shadow);
+}
+.topbar::after{
+  content:"";position:absolute;right:-18px;top:-30%;width:70px;height:160%;
+  background:rgba(255,255,255,.10);transform:skewX(var(--skew));pointer-events:none;
+}
+.topbar-title{
+  flex:1;margin:0;font-family:"Archivo Black","Archivo",sans-serif;
+  font-size:1.05rem;letter-spacing:.4px;text-transform:uppercase;font-style:italic;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.topbar-right{display:flex;gap:6px;position:relative;z-index:1}
+.iconbtn{
+  width:40px;height:40px;min-width:40px;border-radius:12px;display:inline-flex;
+  align-items:center;justify-content:center;font-size:1.05rem;font-weight:800;
+  background:rgba(255,255,255,.16);color:#fff;
+}
+.iconbtn.ghost{background:transparent;pointer-events:none}
+.iconbtn.danger{background:#FBE4E4;color:var(--bad);width:34px;height:34px;min-width:34px;font-size:.85rem}
+
+/* ---------- Accueil ---------- */
+.home .hero{text-align:center;padding:26px 8px 6px}
+.logo{width:min(66%,300px);height:auto;display:block;margin:0 auto}
+.tagline{color:var(--muted);font-weight:600;font-size:.9rem;margin:12px 0 0}
+.game-cards{display:flex;flex-direction:column;gap:12px;margin-top:4px}
+.game-card{
+  display:flex;align-items:center;gap:14px;text-align:left;
+  background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);
+  padding:16px;border:1.5px solid var(--line);
+  transition:transform .12s ease, border-color .12s ease;
+}
+.game-card:active{transform:scale(.985)}
+.gc-icon{width:52px;height:52px;min-width:52px;color:var(--blue);display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,#E4EEFA,#F2F7FD);border-radius:14px;transform:skewX(var(--skew))}
+.gc-icon svg{width:34px;height:34px;transform:skewX(calc(var(--skew) * -1))}
+.gc-body{flex:1;display:flex;flex-direction:column;gap:2px}
+.gc-title{font-family:"Archivo Black","Archivo",sans-serif;font-size:1.15rem;text-transform:uppercase;font-style:italic;letter-spacing:.3px;color:var(--blue-deep)}
+.gc-sub{color:var(--muted);font-size:.82rem;font-weight:600}
+.gc-arrow{color:var(--blue);font-weight:900;font-size:1.1rem}
+
+.section-title{
+  font-family:"Archivo Black","Archivo",sans-serif;font-size:.82rem;text-transform:uppercase;
+  letter-spacing:1.2px;color:var(--blue-dark);margin:10px 0 0;font-style:italic;
+  display:flex;align-items:center;gap:8px;
+}
+.section-title::before{content:"";width:14px;height:3px;background:var(--gold);transform:skewX(var(--skew))}
+.section-title .hint{font-family:"Archivo",sans-serif;font-style:normal;text-transform:none;letter-spacing:0;color:var(--muted);font-weight:600}
+.hint{color:var(--muted);font-size:.8rem;font-weight:600}
+.hint.center{text-align:center;margin:2px 0 0}
+
+/* ---------- Historique accueil ---------- */
+.hist-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.hist-item{
+  display:grid;grid-template-columns:1fr auto;grid-template-areas:"g d" "w d";
+  background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:9px 12px;gap:1px 8px;
+}
+.hist-game{grid-area:g;font-size:.75rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.hist-winner{grid-area:w;font-weight:800;color:var(--ink)}
+.hist-date{grid-area:d;align-self:center;color:var(--muted);font-size:.78rem;font-weight:600}
+
+/* ---------- Boutons / puces ---------- */
+.btn{
+  border-radius:14px;padding:13px 18px;font-weight:800;font-size:1rem;text-align:center;
+  transition:transform .1s ease;
+}
+.btn:active:not(:disabled){transform:scale(.97)}
+.btn.primary{background:linear-gradient(115deg,var(--blue-dark),var(--blue));color:#fff;box-shadow:0 4px 12px rgba(20,103,184,.35)}
+.btn.big{padding:16px 18px;font-size:1.08rem;text-transform:uppercase;font-style:italic;letter-spacing:.5px;font-family:"Archivo Black","Archivo",sans-serif;margin-top:6px}
+.ghost-btn{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:13px 18px;font-weight:700;color:var(--blue-dark)}
+.small-btn{padding:9px 14px;font-size:.88rem;align-self:flex-start}
+.danger-btn{background:#FBE4E4;color:var(--bad);border-radius:14px;padding:13px 18px;font-weight:800}
+
+.chips-row{display:flex;gap:8px;flex-wrap:wrap}
+.chips-row.tabs{margin-top:4px}
+.chip{
+  background:var(--card);border:1.5px solid var(--line);border-radius:999px;
+  padding:9px 15px;font-weight:700;font-size:.9rem;color:var(--ink);
+  transition:all .12s ease;
+}
+.chip.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 3px 8px rgba(20,103,184,.3)}
+.chip.small{padding:6px 12px;font-size:.82rem}
+.chip.mult.active{background:var(--gold);border-color:var(--gold);color:var(--blue-deep)}
+
+/* ---------- Cartes / formulaires ---------- */
+.card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px}
+.card.padless{padding:10px}
+.input{
+  width:100%;border:1.5px solid var(--line);border-radius:12px;background:#F7FAFD;
+  padding:12px 13px;font:inherit;font-weight:600;color:var(--ink);
+}
+.input:focus{outline:none;border-color:var(--blue);background:#fff}
+.team-cfg{display:flex;flex-direction:column;gap:8px;border-left:5px solid var(--tc)}
+.team-name{font-weight:800;font-size:1.02rem}
+.addbox{display:flex;gap:8px}
+.addbox .input{flex:1}
+.addbox .btn{white-space:nowrap}
+.roster{display:flex;flex-direction:column;gap:6px}
+.roster-label{font-size:.78rem;font-weight:700;color:var(--muted)}
+.chips-row.wrap{gap:6px}
+.empty-note{color:var(--muted);font-weight:600;font-size:.9rem;text-align:center;background:var(--card);border:1.5px dashed var(--line);border-radius:12px;padding:14px;margin:0}
+
+.player-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.player-item{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:8px 10px}
+.pi-order{
+  width:26px;height:26px;min-width:26px;border-radius:8px;background:var(--blue);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-weight:900;font-size:.82rem;
+  transform:skewX(var(--skew));font-style:italic;
+}
+.pi-name{flex:1;font-weight:700}
+
+/* ---------- Match : communs ---------- */
+.turnbox{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-left:5px solid var(--gold)}
+.turn-label{font-size:.72rem;text-transform:uppercase;letter-spacing:1px;font-weight:800;color:var(--muted);display:block}
+.turn-name{font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;font-size:1.3rem;color:var(--blue-deep);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.turn-score{margin-left:auto;font-weight:900;color:var(--blue);font-size:1.05rem;white-space:nowrap}
+
+.toast{
+  position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);z-index:60;
+  background:var(--blue-deep);color:#fff;font-weight:700;padding:12px 18px;border-radius:14px;
+  box-shadow:0 6px 20px rgba(0,0,0,.28);opacity:0;pointer-events:none;transition:all .25s ease;
+  max-width:88vw;text-align:center;font-size:.92rem;
+}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast.bad{background:var(--bad)}
+
+/* ---------- Pétanque ---------- */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.team-panel{display:flex;flex-direction:column;align-items:center;gap:4px;border-top:5px solid var(--tc);padding:12px 8px}
+.team-panel.winning{box-shadow:0 0 0 3px var(--gold), var(--shadow)}
+.team-name-lbl{font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;text-transform:uppercase;font-size:.95rem;color:var(--tc);text-align:center;letter-spacing:.3px;word-break:break-word}
+.team-members{font-size:.72rem;color:var(--muted);font-weight:600;text-align:center}
+.bigscore{
+  font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;font-size:4.2rem;line-height:1;
+  color:var(--ink);margin:6px 0 0;transform:skewX(var(--skew));
+}
+.team-goal{font-size:.72rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.6px;margin-bottom:6px}
+.ptbtns{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.ptbtn{
+  width:44px;height:44px;border-radius:12px;background:#EAF2FB;color:var(--blue-dark);
+  font-weight:900;font-size:1.02rem;border:1.5px solid var(--line);
+}
+.ptbtn:active:not(:disabled){background:var(--blue);color:#fff}
+.mene-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.mene-list li{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:8px 12px}
+.mene-no{font-size:.78rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;min-width:64px}
+.mene-team{flex:1;font-weight:800}
+.mene-pts{font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;color:var(--ink)}
+.fanny{
+  font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;color:var(--gold);
+  font-size:1.6rem;letter-spacing:1px;margin-top:6px;animation:pop .5s ease;
+}
+
+/* ---------- Mölkky ---------- */
+.pinboard{display:flex;flex-direction:column;gap:10px;align-items:center}
+.pin-help{font-weight:600;color:var(--muted);font-size:.9rem;text-align:center}
+.pin-row{display:flex;gap:8px;justify-content:center}
+.pin{
+  width:52px;height:58px;border-radius:12px 12px 16px 16px;border:2px solid var(--line);
+  background:linear-gradient(180deg,#FDF6EC,#F3E4CB);color:#7A5A2E;font-weight:900;font-size:1.15rem;
+  box-shadow:inset 0 -3px 0 rgba(122,90,46,.18);transition:all .1s ease;
+}
+.pin.sel{background:linear-gradient(180deg,var(--blue),var(--blue-dark));border-color:var(--blue-dark);color:#fff;transform:rotate(-8deg) translateY(3px);box-shadow:none}
+.pin-actions{display:flex;gap:10px;width:100%}
+.pin-actions .btn{flex:1}
+.mk-board{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.mk-player{
+  display:grid;grid-template-columns:1fr auto auto;grid-template-areas:"n m s" "l l s";
+  align-items:center;gap:2px 10px;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:9px 12px;
+}
+.mk-player.current{border-color:var(--blue);box-shadow:0 0 0 2px rgba(20,103,184,.25)}
+.mk-player.won{border-color:var(--gold);box-shadow:0 0 0 2px rgba(242,168,29,.4)}
+.mk-player.out{opacity:.5}
+.mk-name{grid-area:n;font-weight:800;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mk-name em{font-style:normal;font-size:.72rem;color:var(--bad);font-weight:800;text-transform:uppercase;margin-left:4px}
+.mk-score{grid-area:s;font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;font-size:1.7rem;color:var(--blue-deep)}
+.mk-left{grid-area:l;font-size:.74rem;color:var(--muted);font-weight:700}
+.missdots{grid-area:m;display:flex;gap:4px}
+.missdots i{width:9px;height:9px;border-radius:50%;background:var(--line)}
+.missdots i.on{background:var(--bad)}
+.mk-log{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px;font-size:.88rem;color:var(--muted);font-weight:600}
+.mk-log b{color:var(--ink)}
+
+/* ---------- Fléchettes ---------- */
+.x01top{justify-content:space-between}
+.x01-remaining{font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;font-size:3.4rem;line-height:1;color:var(--blue-deep);transform:skewX(var(--skew))}
+.dartrow{display:flex;gap:8px;justify-content:center}
+.dartchip{
+  min-width:74px;text-align:center;padding:8px 10px;border-radius:10px;background:var(--card);
+  border:1.5px dashed var(--line);font-weight:800;color:var(--muted);
+}
+.dartchip.filled{border-style:solid;border-color:var(--blue);color:var(--blue-deep);background:#EAF2FB}
+.finish-hint{
+  background:#E7F6EE;border:1.5px solid #BEE5D0;color:#0E7A4C;border-radius:12px;
+  padding:10px 13px;font-weight:700;font-size:.92rem;text-align:center;
+}
+.finish-hint.warn{background:#FDF3DF;border-color:#F0DCAE;color:#8A6413}
+.mult-row{display:flex;gap:8px;padding:4px 4px 10px;justify-content:center}
+.numgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}
+.numbtn{
+  height:52px;border-radius:12px;background:#EAF2FB;border:1.5px solid var(--line);
+  font-weight:900;font-size:1.05rem;color:var(--blue-dark);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;line-height:1.05;
+}
+.numbtn small{font-size:.62rem;font-weight:700;color:var(--muted)}
+.numbtn:active:not(:disabled){background:var(--blue);color:#fff}
+.numbtn.bull{background:#FDF3DF;border-color:#F0DCAE;color:#8A6413}
+.numbtn.miss{background:#FBE4E4;border-color:#F2C7C7;color:var(--bad)}
+.cricket-grid{grid-template-columns:repeat(4,1fr)}
+.x01-board{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.x01-player{
+  display:grid;grid-template-columns:1fr auto;grid-template-areas:"n s" "l s";
+  gap:1px 10px;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:9px 12px;align-items:center;
+}
+.x01-player.current{border-color:var(--blue);box-shadow:0 0 0 2px rgba(20,103,184,.25)}
+.x01-player.won{border-color:var(--gold);box-shadow:0 0 0 2px rgba(242,168,29,.4)}
+.xp-name{grid-area:n;font-weight:800}
+.xp-last{grid-area:l;font-size:.74rem;color:var(--muted);font-weight:600}
+.xp-score{grid-area:s;font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;font-size:1.8rem;color:var(--blue-deep)}
+
+.table-wrap{overflow-x:auto}
+.cric-table{width:100%;border-collapse:collapse;font-weight:700}
+.cric-table th,.cric-table td{padding:9px 6px;text-align:center;border-bottom:1px solid var(--line);font-size:.95rem}
+.cric-table thead th{font-size:.8rem;text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
+.cric-table thead th.cur{color:var(--blue);border-bottom:3px solid var(--blue)}
+.cric-num{font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;color:var(--blue-deep)}
+.cric-table td{font-size:1.15rem;color:var(--ink)}
+.cric-table td.closed{color:var(--ok)}
+.cric-pts th{color:var(--muted);text-transform:uppercase;font-size:.75rem;letter-spacing:.6px}
+.cric-pts td{font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;color:var(--blue-deep)}
+
+.clock-target{display:flex;flex-direction:column;align-items:center;gap:2px;border-top:5px solid var(--gold)}
+.ct-label{font-size:.74rem;text-transform:uppercase;letter-spacing:1px;font-weight:800;color:var(--muted)}
+.ct-num{font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;font-size:4.6rem;line-height:1;color:var(--blue-deep);transform:skewX(var(--skew))}
+.clock-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.clock-actions.four{grid-template-columns:1fr 1fr}
+.clock-actions .btn{padding:16px 10px}
+
+/* ---------- Règles ---------- */
+.rules-body{font-size:.95rem;line-height:1.55}
+.rules-body h3{
+  font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;text-transform:uppercase;
+  font-size:.9rem;letter-spacing:.6px;color:var(--blue-dark);margin:16px 0 6px;
+}
+.rules-body h3:first-child{margin-top:2px}
+.rules-body p,.rules-body ul,.rules-body ol{margin:0 0 8px}
+.rules-body ul,.rules-body ol{padding-left:20px}
+.rules-body li{margin-bottom:5px}
+
+/* ---------- Victoire ---------- */
+.win-overlay{
+  position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(150deg,rgba(8,52,97,.96),rgba(20,103,184,.94));
+  padding:20px;animation:fade .3s ease;
+}
+.win-box{
+  width:100%;max-width:400px;background:#fff;border-radius:22px;padding:28px 22px;
+  display:flex;flex-direction:column;gap:10px;text-align:center;animation:pop .35s ease;
+  max-height:88dvh;overflow:auto;
+}
+.win-icon{width:74px;height:74px;margin:0 auto;color:var(--gold)}
+.win-icon svg{width:100%;height:100%}
+.win-sub{font-size:.8rem;text-transform:uppercase;letter-spacing:2px;font-weight:800;color:var(--muted)}
+.win-name{
+  font-family:"Archivo Black","Archivo",sans-serif;font-style:italic;font-size:2rem;line-height:1.1;
+  color:var(--blue-deep);word-break:break-word;
+}
+.win-detail{color:var(--muted);font-weight:700;margin-bottom:8px}
+@keyframes pop{from{transform:scale(.85);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+
+@media (min-width:430px){
+  .pin{width:58px;height:64px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+
+</style>
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+<div id="toast" class="toast" role="status"></div>
+<script>
+const LOGO_SRC = "data:image/png;base64,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";
+'use strict';
+
+/* ==================== STOCKAGE (repli mémoire si localStorage indisponible) ==================== */
+const store = {
+  mem: {},
+  get(k, d){ try{ const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); }catch(e){ return (k in this.mem) ? this.mem[k] : d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){ this.mem[k] = v; } }
+};
+
+/* ==================== ÉTAT GLOBAL ==================== */
+const S = {
+  screen: 'home',
+  rulesTab: 'petanque',
+  rulesBack: 'home',
+  roster: store.get('x4y_roster', []),
+  history: store.get('x4y_history', []),
+  cfg: null,
+  match: null,
+  undo: []
+};
+
+const $app = document.getElementById('app');
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const clone = o => JSON.parse(JSON.stringify(o));
+const TEAM_COLORS = ['#1467B8','#E0632B','#17A366','#8E44AD','#D63384','#0FA3B1','#C0392B','#5D6D7E'];
+const GAME_LABEL = { petanque:'Pétanque', molkky:'Mölkky', x01:'Fléchettes · X01', cricket:'Fléchettes · Cricket', clock:'Fléchettes · Horloge' };
+
+function saveRosterNames(names){
+  let changed = false;
+  names.map(n => String(n).trim()).filter(Boolean).forEach(n => {
+    if(!S.roster.some(r => r.toLowerCase() === n.toLowerCase())){ S.roster.push(n); changed = true; }
+  });
+  if(changed){ S.roster = S.roster.slice(-24); store.set('x4y_roster', S.roster); }
+}
+function pushHistory(entry){
+  S.history.unshift(Object.assign({ date: Date.now() }, entry));
+  S.history = S.history.slice(0, 8);
+  store.set('x4y_history', S.history);
+}
+function snap(){ S.undo.push(clone(S.match)); if(S.undo.length > 40) S.undo.shift(); }
+function shuffle(a){ for(let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+let toastTimer = null;
+function toast(msg, kind){
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = 'toast show' + (kind ? ' ' + kind : '');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.className = 'toast'; }, 2200);
+}
+
+/* ==================== NAVIGATION ==================== */
+function go(screen){ S.screen = screen; render(); window.scrollTo(0, 0); }
+
+/* ==================== ICÔNES SVG ==================== */
+const ICONS = {
+  petanque: '<svg viewBox="0 0 48 48" fill="none"><circle cx="17" cy="29" r="11" stroke="currentColor" stroke-width="3"/><path d="M10 26c2-4 6-6 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="35" cy="31" r="9" stroke="currentColor" stroke-width="3"/><circle cx="28" cy="12" r="4.5" fill="currentColor"/></svg>',
+  molkky: '<svg viewBox="0 0 48 48" fill="none"><rect x="9" y="14" width="8" height="24" rx="4" stroke="currentColor" stroke-width="3"/><rect x="20" y="8" width="8" height="30" rx="4" stroke="currentColor" stroke-width="3"/><rect x="31" y="14" width="8" height="24" rx="4" stroke="currentColor" stroke-width="3"/><path d="M4 42h40" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>',
+  darts: '<svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="11" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="4" fill="currentColor"/><path d="M24 24 40 8M40 8l-2 7M40 8l-7 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  trophy: '<svg viewBox="0 0 48 48" fill="none"><path d="M14 8h20v10a10 10 0 0 1-20 0V8Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M14 12H7a7 7 0 0 0 7 9M34 12h7a7 7 0 0 1-7 9" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M24 28v6M16 40h16M20 34h8l2 6H18l2-6Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>'
+};
+
+/* ==================== COMPOSANTS UI ==================== */
+function header(title, opts){
+  opts = opts || {};
+  return '<header class="topbar">' +
+    (opts.back ? '<button class="iconbtn" aria-label="Retour" onclick="UI.back(\'' + opts.back + '\')">&#10094;</button>' : '<span class="iconbtn ghost"></span>') +
+    '<h1 class="topbar-title">' + esc(title) + '</h1>' +
+    '<span class="topbar-right">' + (opts.right || '<span class="iconbtn ghost"></span>') + '</span>' +
+    '</header>';
+}
+function matchHeader(title, rulesTab){
+  const undoDisabled = S.undo.length === 0 ? ' disabled' : '';
+  return '<header class="topbar">' +
+    '<button class="iconbtn" aria-label="Quitter la partie" onclick="UI.quitMatch()">&#10005;</button>' +
+    '<h1 class="topbar-title">' + esc(title) + '</h1>' +
+    '<span class="topbar-right">' +
+    '<button class="iconbtn" aria-label="Règles" onclick="UI.openRules(\'' + rulesTab + '\',\'match\')">?</button>' +
+    '<button class="iconbtn" aria-label="Annuler le dernier coup" onclick="UI.undoLast()"' + undoDisabled + '>&#8630;</button>' +
+    '</span></header>';
+}
+function chip(label, active, onclick){
+  return '<button class="chip' + (active ? ' active' : '') + '" onclick="' + onclick + '">' + label + '</button>';
+}
+
+/* ==================== ÉCRAN ACCUEIL ==================== */
+function renderHome(){
+  const hist = S.history.map(h => {
+    const d = new Date(h.date);
+    const dd = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' }) + ' ' + d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+    return '<li class="hist-item"><span class="hist-game">' + esc(GAME_LABEL[h.game] || h.game) + '</span>' +
+      '<span class="hist-winner">&#127942; ' + esc(h.winner) + '</span><span class="hist-date">' + dd + '</span></li>';
+  }).join('');
+  return '<div class="screen home">' +
+    '<div class="hero"><img class="logo" src="' + LOGO_SRC + '" alt="Xpert 4You"><p class="tagline">Compteur de points &mdash; P&eacute;tanque &middot; M&ouml;lkky &middot; Fl&eacute;chettes</p></div>' +
+    '<div class="game-cards">' +
+    '<button class="game-card" onclick="UI.openConfig(\'petanque\')"><span class="gc-icon">' + ICONS.petanque + '</span><span class="gc-body"><span class="gc-title">P&eacute;tanque</span><span class="gc-sub">T&ecirc;te-&agrave;-t&ecirc;te &middot; Doublette &middot; Triplette</span></span><span class="gc-arrow">&#10095;</span></button>' +
+    '<button class="game-card" onclick="UI.openConfig(\'molkky\')"><span class="gc-icon">' + ICONS.molkky + '</span><span class="gc-body"><span class="gc-title">M&ouml;lkky</span><span class="gc-sub">Individuel ou &eacute;quipes &middot; objectif 50</span></span><span class="gc-arrow">&#10095;</span></button>' +
+    '<button class="game-card" onclick="UI.openConfig(\'darts\')"><span class="gc-icon">' + ICONS.darts + '</span><span class="gc-body"><span class="gc-title">Fl&eacute;chettes</span><span class="gc-sub">301 / 501 &middot; Cricket &middot; Tour de l&rsquo;horloge</span></span><span class="gc-arrow">&#10095;</span></button>' +
+    '</div>' +
+    '<button class="btn ghost-btn" onclick="UI.openRules(\'petanque\',\'home\')">&#128214; Consulter les r&egrave;gles des jeux</button>' +
+    (hist ? '<section class="hist"><h2 class="section-title">Derni&egrave;res parties</h2><ul class="hist-list">' + hist + '</ul></section>' : '') +
+    '</div>';
+}
+
+/* ==================== ÉCRAN RÈGLES ==================== */
+const RULES = {
+  petanque: {
+    title: 'Pétanque',
+    html:
+      '<h3>But du jeu</h3><p>Marquer <b>13 points</b> en premier (11 ou 15 selon les variantes locales). Les points se marquent mène après mène.</p>' +
+      '<h3>Les formats</h3><ul>' +
+      '<li><b>Tête-à-tête</b> : 1 contre 1, <b>3 boules</b> par joueur.</li>' +
+      '<li><b>Doublette</b> : 2 contre 2, <b>3 boules</b> par joueur (6 par équipe).</li>' +
+      '<li><b>Triplette</b> : 3 contre 3, <b>2 boules</b> par joueur (6 par équipe).</li></ul>' +
+      '<h3>Déroulement d\u2019une mène</h3><ol>' +
+      '<li>Tirage au sort : l\u2019équipe gagnante trace le cercle et lance le but (petite boule) entre <b>6 et 10 m</b>.</li>' +
+      '<li>Elle joue la première boule. L\u2019équipe adverse joue ensuite jusqu\u2019à reprendre le point (avoir la boule la plus proche du but) ou épuiser ses boules.</li>' +
+      '<li>C\u2019est toujours l\u2019équipe qui <b>n\u2019a pas le point</b> qui joue.</li></ol>' +
+      '<h3>Comptage</h3><p>Quand toutes les boules sont jouées, l\u2019équipe la plus proche du but marque <b>1 point par boule mieux placée</b> que la meilleure boule adverse (1 à 3 points en tête-à-tête, 1 à 6 en doublette/triplette). Une seule équipe marque par mène.</p>' +
+      '<h3>La Fanny</h3><p>Perdre <b>13 à 0</b>&hellip; et la tradition veut que l\u2019équipe perdante embrasse le postérieur de Fanny&nbsp;!</p>'
+  },
+  molkky: {
+    title: 'Mölkky',
+    html:
+      '<h3>But du jeu</h3><p>Atteindre <b>exactement 50 points</b> en renversant des quilles numérotées de 1 à 12 avec le bâton (le mölkky), lancé à 3&ndash;4 m.</p>' +
+      '<h3>Comptage</h3><ul>' +
+      '<li><b>1 seule quille</b> renversée &rarr; on marque <b>la valeur inscrite</b> dessus.</li>' +
+      '<li><b>Plusieurs quilles</b> renversées &rarr; on marque <b>le nombre de quilles</b> tombées.</li>' +
+      '<li>Une quille n\u2019est comptée que si elle est <b>entièrement au sol</b> (pas appuyée sur une autre ou sur le mölkky).</li></ul>' +
+      '<h3>Règles clés</h3><ul>' +
+      '<li>Les quilles sont <b>redressées sur place</b>, là où elles sont tombées : le jeu s\u2019étale au fil de la partie.</li>' +
+      '<li>Si on dépasse 50, on <b>redescend à 25</b>.</li>' +
+      '<li><b>3 lancers nuls consécutifs</b> (aucune quille) &rarr; <b>élimination</b>. Variante conviviale : retour à 25 au lieu de l\u2019élimination.</li>' +
+      '<li>Se joue en individuel ou par équipes, chacun lance à tour de rôle.</li></ul>'
+  },
+  darts: {
+    title: 'Fléchettes',
+    html:
+      '<h3>La cible</h3><p>Chaque secteur (1 à 20) possède un anneau extérieur <b>double</b> (&times;2) et un anneau intérieur <b>triple</b> (&times;3). Au centre : le <b>Bull</b> (25) et le <b>Double Bull</b> (50). On lance <b>3 fléchettes par volée</b>, pieds derrière la ligne à <b>2,37 m</b>.</p>' +
+      '<h3>301 / 501 (X01)</h3><ul>' +
+      '<li>Chaque joueur part de 301, 501 (ou 701) et <b>décompte</b> ses points.</li>' +
+      '<li>Il faut atteindre <b>exactement 0</b>.</li>' +
+      '<li><b>Sortie double</b> (règle officielle) : la dernière fléchette doit être un <b>double</b> (ou Double Bull). <b>Sortie master</b> : double ou triple. <b>Sortie simple</b> : tout coup exact.</li>' +
+      '<li>Si on dépasse 0, ou qu\u2019on tombe à 1 en sortie double &rarr; <b>&laquo; bust &raquo;</b> : la volée est annulée, on revient au score de début de volée.</li>' +
+      '<li>Variante <b>entrée double</b> : les points ne comptent qu\u2019à partir du premier double touché.</li></ul>' +
+      '<h3>Cricket</h3><ul>' +
+      '<li>Seuls comptent les numéros <b>15 à 20 et le Bull</b>.</li>' +
+      '<li>Il faut <b>fermer</b> chaque numéro avec <b>3 marques</b> (simple = 1, double = 2, triple = 3 ; Bull simple = 1, Double Bull = 2).</li>' +
+      '<li>Toute touche supplémentaire sur un numéro fermé rapporte <b>des points</b> (valeur du numéro) tant qu\u2019un adversaire ne l\u2019a pas fermé.</li>' +
+      '<li>Gagne celui qui a <b>tout fermé</b> avec un score <b>supérieur ou égal</b> à tous les autres.</li></ul>' +
+      '<h3>Tour de l\u2019horloge</h3><ul>' +
+      '<li>Toucher les numéros <b>de 1 à 20 dans l\u2019ordre</b> (option : finir sur le Bull).</li>' +
+      '<li>On ne passe au numéro suivant qu\u2019après avoir touché le numéro en cours.</li>' +
+      '<li>Variante <b>montée rapide</b> : un double fait avancer de 2 numéros, un triple de 3.</li>' +
+      '<li>Le premier à terminer le parcours gagne.</li></ul>'
+  }
+};
+function renderRules(){
+  const tabs = ['petanque', 'molkky', 'darts'].map(k =>
+    chip(esc(RULES[k].title), S.rulesTab === k, "UI.rulesTab('" + k + "')")
+  ).join('');
+  return '<div class="screen">' +
+    header('Règles du jeu', { back: S.rulesBack }) +
+    '<div class="chips-row tabs">' + tabs + '</div>' +
+    '<article class="card rules-body">' + RULES[S.rulesTab].html + '</article>' +
+    '</div>';
+}
+
+/* ==================== ROSTER (chips joueurs enregistrés) ==================== */
+function rosterChips(action){
+  if(!S.roster.length) return '';
+  const chips = S.roster.map((n, i) => '<button class="chip small" onclick="' + action + '(' + i + ')">' + esc(n) + '</button>').join('');
+  return '<div class="roster"><span class="roster-label">Joueurs enregistrés :</span><div class="chips-row wrap">' + chips + '</div></div>';
+}
+
+/* ==================== CONFIG PÉTANQUE ==================== */
+const PET_MODES = { tt: { label: 'Tête-à-tête', n: 1, max: 3 }, doub: { label: 'Doublette', n: 2, max: 6 }, trip: { label: 'Triplette', n: 3, max: 6 } };
+function defaultPetCfg(){
+  return { game: 'petanque', mode: 'doub', target: 13, teamNames: ['Équipe 1', 'Équipe 2'], members: [['', '', ''], ['', '', '']] };
+}
+function renderPetConfig(){
+  const c = S.cfg;
+  const n = PET_MODES[c.mode].n;
+  const modes = Object.keys(PET_MODES).map(k => chip(PET_MODES[k].label, c.mode === k, "UI.petMode('" + k + "')")).join('');
+  const targets = [11, 13, 15, 21].map(t => chip(String(t) + ' pts', c.target === t, 'UI.petTarget(' + t + ')')).join('');
+  const teams = [0, 1].map(ti => {
+    let inputs = '';
+    for(let p = 0; p < n; p++){
+      inputs += '<input class="input member" type="text" maxlength="18" placeholder="Joueur ' + (p + 1) + ' (facultatif)" value="' + esc(c.members[ti][p]) + '" oninput="UI.petMember(' + ti + ',' + p + ',this.value)">';
+    }
+    return '<div class="card team-cfg" style="--tc:' + TEAM_COLORS[ti] + '">' +
+      '<input class="input team-name" type="text" maxlength="18" value="' + esc(c.teamNames[ti]) + '" oninput="UI.petTeamName(' + ti + ',this.value)" aria-label="Nom de l\u2019équipe ' + (ti + 1) + '">' +
+      inputs + '</div>';
+  }).join('');
+  return '<div class="screen">' +
+    header('Pétanque', { back: 'home' }) +
+    '<h2 class="section-title">Format</h2><div class="chips-row">' + modes + '</div>' +
+    '<h2 class="section-title">Partie en</h2><div class="chips-row">' + targets + '</div>' +
+    '<h2 class="section-title">Équipes</h2>' + teams +
+    rosterChips('UI.petRoster') +
+    '<button class="btn primary big" onclick="UI.petStart()">Lancer la partie &#9654;</button>' +
+    '</div>';
+}
+
+/* ==================== CONFIG MÖLKKY ==================== */
+function defaultMolkkyCfg(){
+  return { game: 'molkky', players: [], missRule: 'elim' };
+}
+function playerListHtml(players, removeFn){
+  if(!players.length) return '<p class="empty-note">Ajoutez au moins 2 joueurs ou équipes pour commencer.</p>';
+  return '<ul class="player-list">' + players.map((p, i) =>
+    '<li class="player-item"><span class="pi-order">' + (i + 1) + '</span><span class="pi-name">' + esc(p) + '</span>' +
+    '<button class="iconbtn danger" aria-label="Retirer ' + esc(p) + '" onclick="' + removeFn + '(' + i + ')">&#10005;</button></li>'
+  ).join('') + '</ul>';
+}
+function addPlayerBox(addFn){
+  return '<div class="addbox"><input class="input" id="newPlayer" type="text" maxlength="18" placeholder="Nom du joueur ou de l\u2019équipe" onkeydown="if(event.key===\'Enter\')UI.' + addFn + '()">' +
+    '<button class="btn primary" onclick="UI.' + addFn + '()">Ajouter</button></div>';
+}
+function renderMolkkyConfig(){
+  const c = S.cfg;
+  return '<div class="screen">' +
+    header('Mölkky', { back: 'home' }) +
+    '<h2 class="section-title">Joueurs / équipes <span class="hint">(ordre de lancer)</span></h2>' +
+    playerListHtml(c.players, 'UI.molkkyRemove') +
+    addPlayerBox('molkkyAdd') +
+    rosterChips('UI.molkkyRoster') +
+    (c.players.length > 1 ? '<button class="btn ghost-btn small-btn" onclick="UI.molkkyShuffle()">&#128256; Ordre aléatoire</button>' : '') +
+    '<h2 class="section-title">Après 3 lancers nuls consécutifs</h2>' +
+    '<div class="chips-row">' +
+    chip('Élimination (officiel)', c.missRule === 'elim', "UI.molkkyMissRule('elim')") +
+    chip('Retour à 25', c.missRule === 'reset', "UI.molkkyMissRule('reset')") +
+    '</div>' +
+    '<button class="btn primary big" onclick="UI.molkkyStart()">Lancer la partie &#9654;</button>' +
+    '</div>';
+}
+
+/* ==================== CONFIG FLÉCHETTES ==================== */
+function defaultDartsCfg(){
+  return { game: 'darts', mode: 'x01', start: 501, out: 'double', din: 'simple', players: [], fast: false, bull: false };
+}
+function renderDartsConfig(){
+  const c = S.cfg;
+  const modes = [['x01', '301 / 501'], ['cricket', 'Cricket'], ['clock', 'Tour de l\u2019horloge']]
+    .map(m => chip(m[1], c.mode === m[0], "UI.dartsMode('" + m[0] + "')")).join('');
+  let opts = '';
+  if(c.mode === 'x01'){
+    opts = '<h2 class="section-title">Score de départ</h2><div class="chips-row">' +
+      [301, 501, 701].map(v => chip(String(v), c.start === v, 'UI.dartsStart(' + v + ')')).join('') + '</div>' +
+      '<h2 class="section-title">Sortie (dernière fléchette)</h2><div class="chips-row">' +
+      chip('Double (officiel)', c.out === 'double', "UI.dartsOut('double')") +
+      chip('Master', c.out === 'master', "UI.dartsOut('master')") +
+      chip('Simple', c.out === 'simple', "UI.dartsOut('simple')") + '</div>' +
+      '<h2 class="section-title">Entrée</h2><div class="chips-row">' +
+      chip('Simple', c.din === 'simple', "UI.dartsIn('simple')") +
+      chip('Double', c.din === 'double', "UI.dartsIn('double')") + '</div>';
+  } else if(c.mode === 'clock'){
+    opts = '<h2 class="section-title">Progression</h2><div class="chips-row">' +
+      chip('Classique (1 par touche)', !c.fast, 'UI.dartsFast(false)') +
+      chip('Rapide (double +2, triple +3)', c.fast, 'UI.dartsFast(true)') + '</div>' +
+      '<h2 class="section-title">Fin de parcours</h2><div class="chips-row">' +
+      chip('Au 20', !c.bull, 'UI.dartsBull(false)') +
+      chip('Finir sur le Bull', c.bull, 'UI.dartsBull(true)') + '</div>';
+  }
+  const minP = c.mode === 'x01' || c.mode === 'clock' ? 1 : 2;
+  return '<div class="screen">' +
+    header('Fléchettes', { back: 'home' }) +
+    '<h2 class="section-title">Mode de jeu</h2><div class="chips-row">' + modes + '</div>' +
+    opts +
+    '<h2 class="section-title">Joueurs / équipes <span class="hint">(ordre de passage)</span></h2>' +
+    playerListHtml(c.players, 'UI.dartsRemove') +
+    addPlayerBox('dartsAdd') +
+    rosterChips('UI.dartsRoster') +
+    (c.players.length > 1 ? '<button class="btn ghost-btn small-btn" onclick="UI.dartsShuffle()">&#128256; Ordre aléatoire</button>' : '') +
+    '<button class="btn primary big" onclick="UI.dartsStartGame()">Lancer la partie &#9654;</button>' +
+    '<p class="hint center">' + (minP === 1 ? 'Jouable seul (entraînement) ou à plusieurs.' : 'Minimum 2 joueurs pour ce mode.') + '</p>' +
+    '</div>';
+}
+
+/* ==================== MATCH : PÉTANQUE ==================== */
+function startPetanque(cfg){
+  const md = PET_MODES[cfg.mode];
+  const teams = [0, 1].map(i => ({
+    name: cfg.teamNames[i].trim() || ('Équipe ' + (i + 1)),
+    players: cfg.members[i].slice(0, md.n).map(s => s.trim()).filter(Boolean),
+    score: 0,
+    color: TEAM_COLORS[i]
+  }));
+  saveRosterNames([].concat(cfg.members[0], cfg.members[1]));
+  S.match = { game: 'petanque', cfg0: clone(cfg), mode: cfg.mode, target: cfg.target, max: md.max, teams: teams, menes: [], winner: null, fanny: false };
+  S.undo = [];
+  go('match');
+}
+function petAddMene(ti, pts){
+  const M = S.match;
+  if(M.winner !== null) return;
+  snap();
+  M.teams[ti].score += pts;
+  M.menes.push({ t: ti, pts: pts });
+  if(M.teams[ti].score >= M.target){
+    M.winner = ti;
+    M.fanny = M.teams[1 - ti].score === 0;
+    pushHistory({ game: 'petanque', winner: M.teams[ti].name, detail: M.teams[0].score + ' - ' + M.teams[1].score });
+  }
+  render();
+}
+function renderPetMatch(){
+  const M = S.match;
+  const teamCards = M.teams.map((t, ti) => {
+    let btns = '';
+    for(let p = 1; p <= M.max; p++){
+      btns += '<button class="ptbtn" onclick="UI.petMene(' + ti + ',' + p + ')" ' + (M.winner !== null ? 'disabled' : '') + '>+' + p + '</button>';
+    }
+    const members = t.players.length ? '<div class="team-members">' + esc(t.players.join(' · ')) + '</div>' : '';
+    return '<div class="card team-panel' + (M.winner === ti ? ' winning' : '') + '" style="--tc:' + t.color + '">' +
+      '<div class="team-head"><span class="team-name-lbl">' + esc(t.name) + '</span></div>' + members +
+      '<div class="bigscore">' + t.score + '</div>' +
+      '<div class="team-goal">objectif ' + M.target + '</div>' +
+      '<div class="ptbtns">' + btns + '</div>' +
+      '</div>';
+  }).join('');
+  const menes = M.menes.length
+    ? '<ol class="mene-list">' + M.menes.map((m, i) =>
+        '<li><span class="mene-no">Mène ' + (i + 1) + '</span><span class="mene-team" style="color:' + M.teams[m.t].color + '">' + esc(M.teams[m.t].name) + '</span><span class="mene-pts">+' + m.pts + '</span></li>'
+      ).reverse().join('') + '</ol>'
+    : '<p class="empty-note">Touchez +1 à +' + M.max + ' sous l\u2019équipe qui marque la mène.</p>';
+  return '<div class="screen match">' +
+    matchHeader('Pétanque · ' + PET_MODES[M.mode].label, 'petanque') +
+    '<div class="duo">' + teamCards + '</div>' +
+    '<h2 class="section-title">Historique des mènes</h2>' + menes +
+    winnerOverlay() +
+    '</div>';
+}
+
+/* ==================== MATCH : MÖLKKY ==================== */
+const MOLKKY_ROWS = [[7, 9, 8], [5, 11, 12, 6], [3, 10, 4], [1, 2]];
+function startMolkky(cfg){
+  saveRosterNames(cfg.players);
+  S.match = {
+    game: 'molkky', cfg0: clone(cfg), missRule: cfg.missRule,
+    players: cfg.players.map(n => ({ name: n, score: 0, miss: 0, out: false })),
+    idx: 0, sel: [], log: [], winner: null
+  };
+  S.undo = [];
+  go('match');
+}
+function molkkyTogglePin(n){
+  const M = S.match;
+  if(M.winner !== null) return;
+  const i = M.sel.indexOf(n);
+  if(i >= 0) M.sel.splice(i, 1); else M.sel.push(n);
+  render();
+}
+function molkkyNext(){
+  const M = S.match;
+  let i = M.idx;
+  for(let k = 0; k < M.players.length; k++){
+    i = (i + 1) % M.players.length;
+    if(!M.players[i].out) break;
+  }
+  M.idx = i;
+}
+function molkkyValidate(missed){
+  const M = S.match;
+  if(M.winner !== null) return;
+  snap();
+  const p = M.players[M.idx];
+  const sel = missed ? [] : M.sel.slice();
+  const pts = sel.length === 0 ? 0 : (sel.length === 1 ? sel[0] : sel.length);
+  if(pts === 0){
+    p.miss++;
+    if(p.miss >= 3){
+      if(M.missRule === 'elim'){ p.out = true; toast(p.name + ' est éliminé (3 lancers nuls) !', 'bad'); }
+      else { p.score = 25; p.miss = 0; toast('3 lancers nuls → ' + p.name + ' retombe à 25', 'bad'); }
+    }
+  } else {
+    p.miss = 0;
+    p.score += pts;
+    if(p.score > 50){ p.score = 25; toast('Plus de 50 ! ' + p.name + ' redescend à 25', 'bad'); }
+    else if(p.score === 50){ M.winner = M.idx; }
+  }
+  M.log.unshift({ name: p.name, pts: pts });
+  M.log = M.log.slice(0, 30);
+  M.sel = [];
+  if(M.winner === null){
+    const alive = M.players.filter(q => !q.out);
+    if(alive.length === 1 && M.players.length > 1){
+      M.winner = M.players.indexOf(alive[0]);
+    }
+  }
+  if(M.winner !== null){
+    pushHistory({ game: 'molkky', winner: M.players[M.winner].name, detail: M.players[M.winner].score + ' pts' });
+  } else {
+    molkkyNext();
+  }
+  render();
+}
+function renderMolkkyMatch(){
+  const M = S.match;
+  const cur = M.players[M.idx];
+  const board = M.players.map((p, i) => {
+    const dots = '<span class="missdots">' + [0, 1, 2].map(d => '<i class="' + (d < p.miss ? 'on' : '') + '"></i>').join('') + '</span>';
+    return '<li class="mk-player' + (i === M.idx && M.winner === null ? ' current' : '') + (p.out ? ' out' : '') + (M.winner === i ? ' won' : '') + '">' +
+      '<span class="mk-name">' + esc(p.name) + (p.out ? ' <em>éliminé</em>' : '') + '</span>' + dots +
+      '<span class="mk-score">' + p.score + '</span><span class="mk-left">' + (p.out ? '' : 'reste ' + (50 - p.score)) + '</span></li>';
+  }).join('');
+  const pins = MOLKKY_ROWS.map(row =>
+    '<div class="pin-row">' + row.map(n =>
+      '<button class="pin' + (M.sel.indexOf(n) >= 0 ? ' sel' : '') + '" onclick="UI.mkPin(' + n + ')" ' + (M.winner !== null ? 'disabled' : '') + '>' + n + '</button>'
+    ).join('') + '</div>'
+  ).join('');
+  const selInfo = M.sel.length === 0
+    ? 'Touchez les quilles tombées'
+    : (M.sel.length === 1 ? '1 quille → <b>+' + M.sel[0] + ' pts</b>' : M.sel.length + ' quilles → <b>+' + M.sel.length + ' pts</b>');
+  const log = M.log.length
+    ? '<ul class="mk-log">' + M.log.slice(0, 6).map(l => '<li>' + esc(l.name) + ' : <b>' + (l.pts === 0 ? 'raté' : '+' + l.pts) + '</b></li>').join('') + '</ul>'
+    : '';
+  return '<div class="screen match">' +
+    matchHeader('Mölkky', 'molkky') +
+    '<div class="card turnbox"><span class="turn-label">Au tour de</span><span class="turn-name">' + esc(cur.name) + '</span><span class="turn-score">' + cur.score + ' / 50</span></div>' +
+    '<div class="card pinboard"><div class="pin-help">' + selInfo + '</div>' + pins +
+    '<div class="pin-actions">' +
+    '<button class="btn danger-btn" onclick="UI.mkMiss()" ' + (M.winner !== null ? 'disabled' : '') + '>Lancer nul (0)</button>' +
+    '<button class="btn primary" onclick="UI.mkValidate()" ' + (M.winner !== null || M.sel.length === 0 ? 'disabled' : '') + '>Valider</button>' +
+    '</div></div>' +
+    '<h2 class="section-title">Scores</h2><ul class="mk-board">' + board + '</ul>' +
+    (log ? '<h2 class="section-title">Derniers lancers</h2>' + log : '') +
+    winnerOverlay() +
+    '</div>';
+}
+
+/* ==================== MATCH : FLÉCHETTES X01 ==================== */
+const DART_FINISH_THROWS = (function(){
+  const t = [];
+  for(let n = 20; n >= 1; n--){
+    t.push({ l: 'T' + n, v: 3 * n, m: 3 });
+    t.push({ l: 'D' + n, v: 2 * n, m: 2 });
+    t.push({ l: n === 25 ? '' : 'S' + n, v: n, m: 1 });
+  }
+  t.push({ l: 'D-Bull', v: 50, m: 2 });
+  t.push({ l: 'Bull', v: 25, m: 1 });
+  t.sort((a, b) => b.v - a.v);
+  return t;
+})();
+function canFinishWith(t, out){
+  if(out === 'simple') return true;
+  if(out === 'double') return t.m === 2;
+  return t.m === 2 || t.m === 3; // master
+}
+function suggestFinish(score, dartsLeft, out){
+  const minLeft = out === 'simple' ? 1 : 2;
+  function search(rem, left, path){
+    if(rem > 60 * left) return null;
+    for(let i = 0; i < DART_FINISH_THROWS.length; i++){
+      const t = DART_FINISH_THROWS[i];
+      if(t.v === rem && canFinishWith(t, out)) return path.concat(t.l);
+    }
+    if(left <= 1) return null;
+    for(let i = 0; i < DART_FINISH_THROWS.length; i++){
+      const t = DART_FINISH_THROWS[i];
+      if(rem - t.v >= minLeft){
+        const r = search(rem - t.v, left - 1, path.concat(t.l));
+        if(r) return r;
+      }
+    }
+    return null;
+  }
+  if(score < minLeft || dartsLeft <= 0) return null;
+  return search(score, dartsLeft, []);
+}
+function startX01(cfg){
+  saveRosterNames(cfg.players);
+  S.match = {
+    game: 'darts', mode: 'x01', cfg0: clone(cfg),
+    start: cfg.start, out: cfg.out, din: cfg.din,
+    players: cfg.players.map(n => ({ name: n, score: cfg.start, entered: cfg.din !== 'double', thrown: 0, scored: 0, lastVolley: '–' })),
+    idx: 0, darts: [], mult: 1, turnStart: cfg.start, winner: null
+  };
+  S.undo = [];
+  go('match');
+}
+function x01Label(v, m){
+  if(v === 0) return '0';
+  if(v === 25) return m === 2 ? 'D-Bull' : 'Bull';
+  return (m === 3 ? 'T' : m === 2 ? 'D' : '') + v;
+}
+function x01EndTurn(busted){
+  const M = S.match;
+  const p = M.players[M.idx];
+  const volley = M.darts.map(d => x01Label(d.v, d.m)).join(' · ');
+  p.lastVolley = busted ? 'BUST (' + volley + ')' : (volley || '–');
+  M.darts = [];
+  M.mult = 1;
+  M.idx = (M.idx + 1) % M.players.length;
+  M.turnStart = M.players[M.idx].score;
+}
+function x01Throw(v){
+  const M = S.match;
+  if(M.winner !== null) return;
+  snap();
+  const m = v === 0 ? 1 : M.mult;
+  const p = M.players[M.idx];
+  if(M.darts.length === 0){ M.turnStart = p.score; }
+  M.darts.push({ v: v, m: m });
+  p.thrown++;
+  const pts = v * m;
+  let counted = false;
+  if(!p.entered){
+    if(m === 2){ p.entered = true; counted = true; }
+  } else {
+    counted = true;
+  }
+  if(counted && pts > 0){
+    p.score -= pts;
+    p.scored += pts;
+  }
+  M.mult = 1;
+  // fin de partie / bust
+  if(p.score === 0 && counted){
+    const ok = M.out === 'simple' || (M.out === 'double' && m === 2) || (M.out === 'master' && (m === 2 || m === 3));
+    if(ok){
+      M.winner = M.idx;
+      pushHistory({ game: 'x01', winner: p.name, detail: M.start + ' · sortie ' + M.out });
+      render();
+      return;
+    }
+    p.score = M.turnStart; p.scored -= (M.turnStart - 0); // annule les points de la volée
+    fixScored(p, M);
+    toast('BUST ! Il faut finir sur ' + (M.out === 'double' ? 'un double' : 'un double ou un triple'), 'bad');
+    x01EndTurn(true);
+    render();
+    return;
+  }
+  if(p.score < 0 || (p.score === 1 && M.out !== 'simple')){
+    const diff = M.turnStart - p.score;
+    p.score = M.turnStart; p.scored -= diff;
+    toast('BUST ! Volée annulée', 'bad');
+    x01EndTurn(true);
+    render();
+    return;
+  }
+  if(M.darts.length >= 3){
+    x01EndTurn(false);
+  }
+  render();
+}
+function fixScored(p, M){ if(p.scored < 0) p.scored = 0; }
+function renderX01Match(){
+  const M = S.match;
+  const cur = M.players[M.idx];
+  const dartsChips = [0, 1, 2].map(i => {
+    const d = M.darts[i];
+    return '<span class="dartchip' + (d ? ' filled' : '') + '">' + (d ? x01Label(d.v, d.m) : '·') + '</span>';
+  }).join('');
+  const fin = M.winner === null ? suggestFinish(cur.score, 3 - M.darts.length, M.out) : null;
+  const finHtml = fin ? '<div class="finish-hint">&#127919; Finish possible : <b>' + fin.join(' &rarr; ') + '</b></div>' :
+    (M.din === 'double' && !cur.entered ? '<div class="finish-hint warn">Entrée double : touchez un double pour commencer à marquer</div>' : '');
+  const players = M.players.map((p, i) => {
+    const avg = p.thrown > 0 ? (p.scored / p.thrown * 3).toFixed(1) : '–';
+    return '<li class="x01-player' + (i === M.idx && M.winner === null ? ' current' : '') + (M.winner === i ? ' won' : '') + '">' +
+      '<span class="xp-name">' + esc(p.name) + '</span>' +
+      '<span class="xp-last">Volée : ' + esc(p.lastVolley) + ' · Moy/3 : ' + avg + '</span>' +
+      '<span class="xp-score">' + p.score + '</span></li>';
+  }).join('');
+  const multRow = '<div class="mult-row">' +
+    [['1', 'Simple'], ['2', 'Double'], ['3', 'Triple']].map(mm =>
+      '<button class="chip mult' + (M.mult === Number(mm[0]) ? ' active' : '') + '" onclick="UI.x01Mult(' + mm[0] + ')">' + mm[1] + '</button>'
+    ).join('') + '</div>';
+  let grid = '<div class="numgrid">';
+  for(let n = 1; n <= 20; n++){
+    grid += '<button class="numbtn" onclick="UI.x01Throw(' + n + ')" ' + (M.winner !== null ? 'disabled' : '') + '>' + n + '</button>';
+  }
+  const bullDisabled = M.winner !== null || M.mult === 3;
+  grid += '<button class="numbtn bull" onclick="UI.x01Throw(25)" ' + (bullDisabled ? 'disabled' : '') + '>Bull<small>25</small></button>';
+  grid += '<button class="numbtn miss" onclick="UI.x01Throw(0)" ' + (M.winner !== null ? 'disabled' : '') + '>Raté<small>0</small></button>';
+  grid += '</div>';
+  return '<div class="screen match">' +
+    matchHeader((M.start) + ' · sortie ' + M.out, 'darts') +
+    '<div class="card turnbox x01top"><div><span class="turn-label">Au tour de</span><span class="turn-name">' + esc(cur.name) + '</span></div>' +
+    '<div class="x01-remaining">' + cur.score + '</div></div>' +
+    '<div class="dartrow">' + dartsChips + '</div>' +
+    finHtml +
+    '<div class="card padless">' + multRow + grid + '</div>' +
+    '<h2 class="section-title">Joueurs</h2><ul class="x01-board">' + players + '</ul>' +
+    winnerOverlay() +
+    '</div>';
+}
+
+/* ==================== MATCH : CRICKET ==================== */
+const CRICKET_NUMS = [20, 19, 18, 17, 16, 15, 25];
+function startCricket(cfg){
+  saveRosterNames(cfg.players);
+  const marks = {}; CRICKET_NUMS.forEach(n => marks[n] = 0);
+  S.match = {
+    game: 'darts', mode: 'cricket', cfg0: clone(cfg),
+    players: cfg.players.map(n => ({ name: n, marks: clone(marks), pts: 0 })),
+    idx: 0, dartNo: 0, mult: 1, winner: null
+  };
+  S.undo = [];
+  go('match');
+}
+function cricketThrow(n){
+  const M = S.match;
+  if(M.winner !== null) return;
+  snap();
+  const p = M.players[M.idx];
+  let m = n === 0 ? 1 : M.mult;
+  if(n === 25 && m === 3) m = 2;
+  if(n > 0){
+    const before = p.marks[n];
+    const after = Math.min(3, before + m);
+    const overflow = Math.max(0, before + m - 3);
+    p.marks[n] = after;
+    if(overflow > 0){
+      const someOpen = M.players.some((q, i) => i !== M.idx && q.marks[n] < 3);
+      if(someOpen) p.pts += overflow * n;
+    }
+  }
+  M.mult = 1;
+  M.dartNo++;
+  const allClosed = CRICKET_NUMS.every(k => p.marks[k] >= 3);
+  if(allClosed && M.players.every((q, i) => i === M.idx || p.pts >= q.pts)){
+    M.winner = M.idx;
+    pushHistory({ game: 'cricket', winner: p.name, detail: p.pts + ' pts' });
+    render();
+    return;
+  }
+  if(M.dartNo >= 3){
+    M.dartNo = 0;
+    M.idx = (M.idx + 1) % M.players.length;
+  }
+  render();
+}
+const MARK_GLYPH = ['', '/', '\u2715', '\u29BB'];
+function renderCricketMatch(){
+  const M = S.match;
+  const cur = M.players[M.idx];
+  const headCols = M.players.map((p, i) => '<th class="' + (i === M.idx && M.winner === null ? 'cur' : '') + '">' + esc(p.name) + '</th>').join('');
+  const rows = CRICKET_NUMS.map(n => {
+    const cells = M.players.map(p => {
+      const closed = p.marks[n] >= 3;
+      return '<td class="' + (closed ? 'closed' : '') + '">' + (MARK_GLYPH[p.marks[n]] || '') + '</td>';
+    }).join('');
+    return '<tr><th class="cric-num">' + (n === 25 ? 'Bull' : n) + '</th>' + cells + '</tr>';
+  }).join('');
+  const ptsRow = '<tr class="cric-pts"><th>Points</th>' + M.players.map(p => '<td>' + p.pts + '</td>').join('') + '</tr>';
+  const dartsLeft = 3 - M.dartNo;
+  const multRow = '<div class="mult-row">' +
+    [['1', 'Simple'], ['2', 'Double'], ['3', 'Triple']].map(mm =>
+      '<button class="chip mult' + (M.mult === Number(mm[0]) ? ' active' : '') + '" onclick="UI.cricMult(' + mm[0] + ')">' + mm[1] + '</button>'
+    ).join('') + '</div>';
+  const btns = CRICKET_NUMS.map(n => {
+    const dis = M.winner !== null || (n === 25 && M.mult === 3);
+    return '<button class="numbtn" onclick="UI.cricThrow(' + n + ')" ' + (dis ? 'disabled' : '') + '>' + (n === 25 ? 'Bull' : n) + '</button>';
+  }).join('') + '<button class="numbtn miss" onclick="UI.cricThrow(0)" ' + (M.winner !== null ? 'disabled' : '') + '>Raté</button>';
+  return '<div class="screen match">' +
+    matchHeader('Cricket', 'darts') +
+    '<div class="card turnbox"><span class="turn-label">Au tour de</span><span class="turn-name">' + esc(cur.name) + '</span><span class="turn-score">' + dartsLeft + ' fléchette' + (dartsLeft > 1 ? 's' : '') + '</span></div>' +
+    '<div class="card padless table-wrap"><table class="cric-table"><thead><tr><th></th>' + headCols + '</tr></thead><tbody>' + rows + ptsRow + '</tbody></table></div>' +
+    '<div class="card padless">' + multRow + '<div class="numgrid cricket-grid">' + btns + '</div></div>' +
+    winnerOverlay() +
+    '</div>';
+}
+
+/* ==================== MATCH : TOUR DE L'HORLOGE ==================== */
+function startClock(cfg){
+  saveRosterNames(cfg.players);
+  S.match = {
+    game: 'darts', mode: 'clock', cfg0: clone(cfg), fast: cfg.fast, bull: cfg.bull,
+    players: cfg.players.map(n => ({ name: n, target: 1 })),
+    idx: 0, dartNo: 0, winner: null
+  };
+  S.undo = [];
+  go('match');
+}
+function clockTargetLabel(t){ return t === 21 ? 'Bull' : String(t); }
+function clockThrow(mult){ // 0 = raté, 1/2/3 = simple/double/triple
+  const M = S.match;
+  if(M.winner !== null) return;
+  snap();
+  const p = M.players[M.idx];
+  if(mult > 0){
+    const adv = M.fast ? mult : 1;
+    p.target += adv;
+    const end = M.bull ? 21 : 20;
+    if(p.target > end){
+      M.winner = M.idx;
+      pushHistory({ game: 'clock', winner: p.name, detail: M.bull ? '1→20 + Bull' : '1→20' });
+      render();
+      return;
+    }
+  }
+  M.dartNo++;
+  if(M.dartNo >= 3){
+    M.dartNo = 0;
+    M.idx = (M.idx + 1) % M.players.length;
+  }
+  render();
+}
+function renderClockMatch(){
+  const M = S.match;
+  const cur = M.players[M.idx];
+  const dartsLeft = 3 - M.dartNo;
+  const isBullTarget = cur.target === 21;
+  const players = M.players.map((p, i) =>
+    '<li class="mk-player' + (i === M.idx && M.winner === null ? ' current' : '') + (M.winner === i ? ' won' : '') + '">' +
+    '<span class="mk-name">' + esc(p.name) + '</span>' +
+    '<span class="mk-score">' + clockTargetLabel(Math.min(p.target, M.bull ? 21 : 20)) + '</span>' +
+    '<span class="mk-left">cible en cours</span></li>'
+  ).join('');
+  let btns;
+  if(M.fast && !isBullTarget){
+    btns = '<button class="btn danger-btn" onclick="UI.clockThrow(0)">Raté</button>' +
+      '<button class="btn primary" onclick="UI.clockThrow(1)">Simple +1</button>' +
+      '<button class="btn primary" onclick="UI.clockThrow(2)">Double +2</button>' +
+      '<button class="btn primary" onclick="UI.clockThrow(3)">Triple +3</button>';
+  } else {
+    btns = '<button class="btn danger-btn" onclick="UI.clockThrow(0)">Raté</button>' +
+      '<button class="btn primary" onclick="UI.clockThrow(1)">Touché !</button>';
+  }
+  return '<div class="screen match">' +
+    matchHeader('Tour de l\u2019horloge' + (M.fast ? ' · rapide' : ''), 'darts') +
+    '<div class="card turnbox"><span class="turn-label">Au tour de</span><span class="turn-name">' + esc(cur.name) + '</span><span class="turn-score">' + dartsLeft + ' fléchette' + (dartsLeft > 1 ? 's' : '') + '</span></div>' +
+    '<div class="card clock-target"><span class="ct-label">Cible à toucher</span><span class="ct-num">' + clockTargetLabel(cur.target) + '</span></div>' +
+    '<div class="clock-actions' + (M.fast && !isBullTarget ? ' four' : '') + '">' + btns + '</div>' +
+    '<h2 class="section-title">Progression</h2><ul class="mk-board">' + players + '</ul>' +
+    winnerOverlay() +
+    '</div>';
+}
+
+/* ==================== FIN DE PARTIE ==================== */
+function winnerName(){
+  const M = S.match;
+  if(M.winner === null) return '';
+  return M.game === 'petanque' ? M.teams[M.winner].name : M.players[M.winner].name;
+}
+function winnerOverlay(){
+  const M = S.match;
+  if(!M || M.winner === null) return '';
+  let detail = '';
+  if(M.game === 'petanque'){
+    detail = M.teams[0].score + ' &ndash; ' + M.teams[1].score + (M.fanny ? '<div class="fanny">FANNY&nbsp;!</div>' : '');
+  } else if(M.game === 'molkky'){
+    detail = '50 points, pile !';
+  } else if(M.mode === 'x01'){
+    detail = M.start + ' terminé · sortie ' + M.out;
+  } else if(M.mode === 'cricket'){
+    detail = 'Tout fermé · ' + M.players[M.winner].pts + ' pts';
+  } else if(M.mode === 'clock'){
+    detail = 'Parcours ' + (M.bull ? '1 &rarr; 20 + Bull' : '1 &rarr; 20') + ' bouclé';
+  }
+  return '<div class="win-overlay" role="dialog" aria-label="Fin de partie">' +
+    '<div class="win-box">' +
+    '<span class="win-icon">' + ICONS.trophy + '</span>' +
+    '<div class="win-sub">Victoire</div>' +
+    '<div class="win-name">' + esc(winnerName()) + '</div>' +
+    '<div class="win-detail">' + detail + '</div>' +
+    '<button class="btn primary big" onclick="UI.replay()">Rejouer &#8635;</button>' +
+    '<button class="btn ghost-btn" onclick="UI.toConfig()">Modifier la partie</button>' +
+    '<button class="btn ghost-btn" onclick="UI.home()">Accueil</button>' +
+    '</div></div>';
+}
+
+/* ==================== DISPATCH RENDU ==================== */
+function renderMatch(){
+  const M = S.match;
+  if(!M) { go('home'); return ''; }
+  if(M.game === 'petanque') return renderPetMatch();
+  if(M.game === 'molkky') return renderMolkkyMatch();
+  if(M.mode === 'x01') return renderX01Match();
+  if(M.mode === 'cricket') return renderCricketMatch();
+  return renderClockMatch();
+}
+function render(){
+  let html = '';
+  if(S.screen === 'home') html = renderHome();
+  else if(S.screen === 'rules') html = renderRules();
+  else if(S.screen === 'cfg-petanque') html = renderPetConfig();
+  else if(S.screen === 'cfg-molkky') html = renderMolkkyConfig();
+  else if(S.screen === 'cfg-darts') html = renderDartsConfig();
+  else if(S.screen === 'match') html = renderMatch();
+  $app.innerHTML = html;
+}
+
+/* ==================== ACTIONS (exposées aux onclick) ==================== */
+const UI = {
+  back(to){ go(to === 'match' ? 'match' : to); },
+  home(){ S.match = null; S.undo = []; go('home'); },
+  openRules(tab, back){ S.rulesTab = tab; S.rulesBack = back === 'match' ? 'match' : back; go('rules'); },
+  rulesTab(t){ S.rulesTab = t; render(); },
+
+  openConfig(game){
+    if(game === 'petanque'){ S.cfg = S.cfg && S.cfg.game === 'petanque' ? S.cfg : defaultPetCfg(); go('cfg-petanque'); }
+    else if(game === 'molkky'){ S.cfg = S.cfg && S.cfg.game === 'molkky' ? S.cfg : defaultMolkkyCfg(); go('cfg-molkky'); }
+    else { S.cfg = S.cfg && S.cfg.game === 'darts' ? S.cfg : defaultDartsCfg(); go('cfg-darts'); }
+  },
+  toConfig(){
+    const M = S.match;
+    if(!M) { go('home'); return; }
+    S.cfg = clone(M.cfg0);
+    S.match = null; S.undo = [];
+    go(M.cfg0.game === 'petanque' ? 'cfg-petanque' : M.cfg0.game === 'molkky' ? 'cfg-molkky' : 'cfg-darts');
+  },
+
+  /* --- Pétanque config --- */
+  petMode(m){ S.cfg.mode = m; render(); },
+  petTarget(t){ S.cfg.target = t; render(); },
+  petTeamName(i, v){ S.cfg.teamNames[i] = v; },
+  petMember(t, p, v){ S.cfg.members[t][p] = v; },
+  petRoster(i){
+    const name = S.roster[i];
+    const n = PET_MODES[S.cfg.mode].n;
+    for(let t = 0; t < 2; t++){
+      for(let p = 0; p < n; p++){
+        if(!S.cfg.members[t][p].trim()){ S.cfg.members[t][p] = name; render(); return; }
+      }
+    }
+    toast('Toutes les places sont remplies');
+  },
+  petStart(){ startPetanque(S.cfg); },
+  petMene(t, p){ petAddMene(t, p); },
+
+  /* --- Mölkky config --- */
+  molkkyAdd(){
+    const el = document.getElementById('newPlayer');
+    const v = el.value.trim();
+    if(!v){ el.focus(); return; }
+    if(S.cfg.players.some(p => p.toLowerCase() === v.toLowerCase())){ toast('Ce nom est déjà dans la liste'); return; }
+    if(S.cfg.players.length >= 16){ toast('16 joueurs maximum'); return; }
+    S.cfg.players.push(v);
+    render();
+    const el2 = document.getElementById('newPlayer'); if(el2) el2.focus();
+  },
+  molkkyRemove(i){ S.cfg.players.splice(i, 1); render(); },
+  molkkyRoster(i){
+    const name = S.roster[i];
+    if(S.cfg.players.some(p => p.toLowerCase() === name.toLowerCase())){ toast('Déjà dans la liste'); return; }
+    if(S.cfg.players.length >= 16){ toast('16 joueurs maximum'); return; }
+    S.cfg.players.push(name); render();
+  },
+  molkkyShuffle(){ shuffle(S.cfg.players); render(); },
+  molkkyMissRule(r){ S.cfg.missRule = r; render(); },
+  molkkyStart(){
+    if(S.cfg.players.length < 2){ toast('Ajoutez au moins 2 joueurs'); return; }
+    startMolkky(S.cfg);
+  },
+  mkPin(n){ molkkyTogglePin(n); },
+  mkMiss(){ molkkyValidate(true); },
+  mkValidate(){ molkkyValidate(false); },
+
+  /* --- Fléchettes config --- */
+  dartsMode(m){ S.cfg.mode = m; render(); },
+  dartsStart(v){ S.cfg.start = v; render(); },
+  dartsOut(o){ S.cfg.out = o; render(); },
+  dartsIn(o){ S.cfg.din = o; render(); },
+  dartsFast(b){ S.cfg.fast = b; render(); },
+  dartsBull(b){ S.cfg.bull = b; render(); },
+  dartsAdd(){
+    const el = document.getElementById('newPlayer');
+    const v = el.value.trim();
+    if(!v){ el.focus(); return; }
+    if(S.cfg.players.some(p => p.toLowerCase() === v.toLowerCase())){ toast('Ce nom est déjà dans la liste'); return; }
+    if(S.cfg.players.length >= 8){ toast('8 joueurs maximum'); return; }
+    S.cfg.players.push(v);
+    render();
+    const el2 = document.getElementById('newPlayer'); if(el2) el2.focus();
+  },
+  dartsRemove(i){ S.cfg.players.splice(i, 1); render(); },
+  dartsRoster(i){
+    const name = S.roster[i];
+    if(S.cfg.players.some(p => p.toLowerCase() === name.toLowerCase())){ toast('Déjà dans la liste'); return; }
+    if(S.cfg.players.length >= 8){ toast('8 joueurs maximum'); return; }
+    S.cfg.players.push(name); render();
+  },
+  dartsShuffle(){ shuffle(S.cfg.players); render(); },
+  dartsStartGame(){
+    const c = S.cfg;
+    const min = c.mode === 'cricket' ? 2 : 1;
+    if(c.players.length < min){ toast('Ajoutez au moins ' + min + ' joueur' + (min > 1 ? 's' : '')); return; }
+    if(c.mode === 'x01') startX01(c);
+    else if(c.mode === 'cricket') startCricket(c);
+    else startClock(c);
+  },
+  x01Mult(m){ S.match.mult = S.match.mult === m ? 1 : m; render(); },
+  x01Throw(v){ x01Throw(v); },
+  cricMult(m){ S.match.mult = S.match.mult === m ? 1 : m; render(); },
+  cricThrow(n){ cricketThrow(n); },
+  clockThrow(m){ clockThrow(m); },
+
+  /* --- Commun match --- */
+  undoLast(){
+    if(!S.undo.length) return;
+    S.match = S.undo.pop();
+    render();
+  },
+  quitMatch(){
+    if(S.match && S.match.winner === null && !confirm('Quitter la partie en cours ? Les scores seront perdus.')) return;
+    UI.home();
+  },
+  replay(){
+    const M = S.match;
+    if(!M) return;
+    const c = M.cfg0;
+    if(c.game === 'petanque') startPetanque(c);
+    else if(c.game === 'molkky') startMolkky(c);
+    else if(c.mode === 'x01') startX01(c);
+    else if(c.mode === 'cricket') startCricket(c);
+    else startClock(c);
+  }
+};
+window.UI = UI;
+
+render();
+
+window.S = S;
+window.render = render;
+
+</script>
+</body>
+</html>
